@@ -58,32 +58,31 @@ footer{
     }
     .container img{
         max-width: 60%;
-        margin: 10px auto;
 
     }
 }
 
 @media only screen and (max-width: 450px) {
     header{
-        position: relative;;
+        position: fixed;
         font-size: 1.4em;
-        top: 2px;
+        top: 0px;
+        margin-bottom: 0;
     }
     body{
         width: 100vw;
-        height: auto;
-        overflow: hidden;
     }
     .container{
         overflow: hidden;
         flex-direction: column;
         width: 90vw;
-        height: 80vh;
+        height: 100vh;
         justify-content: space-around;
         align-items: center;
     }
     .container img{
         max-width: 100%;
+        border-radius: 5px;
     }
     footer{
         font-size: 1.2em;
