@@ -75,7 +75,7 @@ footer{
     .container{
         overflow: hidden;
         flex-direction: column;
-        width: 90vw;
+        width: 95vw;
         height: 100vh;
         justify-content: space-around;
         align-items: center;
